@@ -1,0 +1,94 @@
+body {
+font-family:Segoe UI;
+font-weight:regular;
+font-size:13px;
+color:#000;
+background-color:#FFF;
+margin:0;
+cursor:default;
+}
+
+h1 {
+font-family:"Segoe UI Light";
+font-weight:700;
+font-size:30px;
+letter-spacing:-1px;
+color:#333;
+line-height:18px;
+margin-top:50px;
+margin-bottom:30px;
+}
+
+h3 {
+font-weight:700;
+font-size:14px;
+color:#000;
+text-transform:uppercase;
+margin-bottom:10px;
+line-height:20px;
+letter-spacing:2px;
+}
+
+p {
+line-height:18px;
+margin:8px 0 20px;
+}
+
+a,a:visited {
+color:#397DB8;
+text-decoration:none;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+.wrapper {
+display:block;
+padding:1px 25px 0;
+}
+
+.map {
+background-color:#eee;
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+width:67%;
+height:100%;
+}
+
+.sidepanel {
+border-radius:4px;
+box-shadow:1.5px 1.5px 8px #888;
+background-color:#fff;
+position:absolute;
+top:0;
+right:0;
+bottom:0;
+width:33%;
+height:96.5%;
+overflow:auto;
+margin-left:10px;
+opacity:0.8;
+padding:10px;
+}
+
+.context {
+font-family:Helvetica, Arial;
+font-size:13px;
+color:#999;
+padding:10px 0 0;
+}
+
+.subheader {
+border-bottom:1px solid #ddd;
+}
+
+.footer {
+border-top:1px solid #ddd;
+}
+
+.titleBlock {
+text-align:right;
+}

@@ -1,0 +1,32 @@
+RGBA
+170 255 255 255
+194 255 182 255
+169 197 84 255
+255 188 32 255
+255 72 0 255
+230 0 00255
+68 0 0 255
+
+hex
+#AAFFFF
+#C2FFB6
+#A9C554
+#FFBC20
+#FF4800
+#E60000
+#440000
+
+
+
+CASE WHEN  "Mercali"  =  'I'  THEN '#AAFFFF' ELSE
+  CASE WHEN  "Mercali"  =  'I - II'  THEN '#C2FFB6' ELSE
+    CASE WHEN  "Mercali"  =  'II - IV'  THEN '#A9C554' ELSE
+      CASE WHEN  "Mercali"  =  'IV - VI'  THEN '#FFBC20' ELSE
+        CASE WHEN  "Mercali"  =  'VI - VIII'  THEN '#FF4800' ELSE
+          CASE WHEN  "Mercali"  =  'VII - X'  THEN '#E60000' ELSE '#440000'
+          END
+        END
+      END
+    END
+  END
+END
